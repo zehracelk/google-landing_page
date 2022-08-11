@@ -28,6 +28,10 @@ header{
     margin-right: 0.8rem;
 }
 
+.links:hover{
+    text-decoration: underline;
+}
+
 .first{
     margin: 20px;
 }
@@ -78,7 +82,10 @@ footer{
     vertical-align: middle;
     opacity:0.5 ;
    
+}
 
+#appicon:hover{
+   opacity: 1;
 }
 
 #signin {
@@ -96,6 +103,13 @@ footer{
     height: 38px;
     width: 500px;
 
+}
+#search:hover {
+    box-shadow: 3px 3px 5px lightgrey;
+}
+#search:focus {
+    outline: 0;
+    text-align:center;
 }
 
 #magnify{
@@ -125,6 +139,10 @@ footer{
     border: none;
     color:#5f6368;
 }
+.btn:hover {box-shadow: 0.8px 0.8px 0.7px lightgrey;
+            color: black;
+}
+
 .lang{
     font-size: 13px;
    margin-left:20% ;
